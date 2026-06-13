@@ -1,79 +1,398 @@
 {
   "_comment": "One Night at Pickle Pete's - asset manifest. Drop real files at the listed paths to replace placeholders. type=image (single PNG), type=strip (horizontal sprite-sheet; set frames/fps/loop), type=audio (mp3/ogg/wav). 'color' is the placeholder fill used when a file is missing.",
-  "base": { "width": 1280, "height": 720 },
+  "base": {
+    "width": 1280,
+    "height": 720
+  },
   "images": {
-    "office_base":        { "file": "img/office_base.png", "color": "#1d2b14" },
-    "window_left_open":   { "file": "img/window_left_open.png", "color": "#0d1408" },
-    "window_right_open":  { "file": "img/window_right_open.png", "color": "#0d1408" },
-    "window_left_full":   { "file": "img/window_left_full.png", "color": "#5a7a2a" },
-    "window_right_full":  { "file": "img/window_right_full.png", "color": "#5a7a2a" },
-    "cam_storage":        { "file": "img/cam_storage.png", "color": "#16240e" },
-    "cam_vats":           { "file": "img/cam_vats.png", "color": "#14210f" },
-    "cam_aisle":          { "file": "img/cam_aisle.png", "color": "#1a2a12" },
-    "cam_backdoor":       { "file": "img/cam_backdoor.png", "color": "#101a0a" },
-    "cam_lefthall":       { "file": "img/cam_lefthall.png", "color": "#1c2c14" },
-    "cam_righthall":      { "file": "img/cam_righthall.png", "color": "#1c2c14" },
-    "tablet_frame":       { "file": "img/tablet_frame.png", "color": "#00000000" },
-    "cam_map":            { "file": "img/cam_map.png", "color": "#0c140788" },
-    "scanlines_overlay":  { "file": "img/scanlines_overlay.png", "color": "#00000000" },
-    "hour_chime_overlay": { "file": "img/hour_chime_overlay.png", "color": "#00000000" },
-    "logo":               { "file": "img/logo.png", "color": "#00000000" },
-    "pete_storage":       { "file": "img/pete_storage.png", "color": "#8fae4b" },
-    "pete_vats":          { "file": "img/pete_vats.png", "color": "#8fae4b" },
-    "pete_aisle":         { "file": "img/pete_aisle.png", "color": "#8fae4b" },
-    "pete_lefthall":      { "file": "img/pete_lefthall.png", "color": "#8fae4b" },
-    "sourtwins_vats":     { "file": "img/sourtwins_vats.png", "color": "#b6c25a" },
-    "sourtwins_aisle":    { "file": "img/sourtwins_aisle.png", "color": "#b6c25a" },
-    "sourtwins_backdoor": { "file": "img/sourtwins_backdoor.png", "color": "#b6c25a" },
-    "sourtwins_righthall":{ "file": "img/sourtwins_righthall.png", "color": "#b6c25a" },
-    "dilllord_pose":      { "file": "img/dilllord_pose.png", "color": "#6b8f3a" }
+    "office_base": {
+      "file": "img/office_base.png",
+      "color": "#1d2b14"
+    },
+    "window_left_open": {
+      "file": "img/window_left_open.png",
+      "color": "#0d1408"
+    },
+    "window_right_open": {
+      "file": "img/window_right_open.png",
+      "color": "#0d1408"
+    },
+    "window_left_full": {
+      "file": "img/window_left_full.png",
+      "color": "#5a7a2a"
+    },
+    "window_right_full": {
+      "file": "img/window_right_full.png",
+      "color": "#5a7a2a"
+    },
+    "cam_storage": {
+      "file": "img/cam_storage.png",
+      "color": "#16240e"
+    },
+    "cam_vats": {
+      "file": "img/cam_vats.png",
+      "color": "#14210f"
+    },
+    "cam_aisle": {
+      "file": "img/cam_aisle.png",
+      "color": "#1a2a12"
+    },
+    "cam_backdoor": {
+      "file": "img/cam_backdoor.png",
+      "color": "#101a0a"
+    },
+    "cam_lefthall": {
+      "file": "img/cam_lefthall.png",
+      "color": "#1c2c14"
+    },
+    "cam_righthall": {
+      "file": "img/cam_righthall.png",
+      "color": "#1c2c14"
+    },
+    "tablet_frame": {
+      "file": "img/tablet_frame.png",
+      "color": "#00000000"
+    },
+    "cam_map": {
+      "file": "img/cam_map.png",
+      "color": "#0c140788"
+    },
+    "scanlines_overlay": {
+      "file": "img/scanlines_overlay.png",
+      "color": "#00000000"
+    },
+    "hour_chime_overlay": {
+      "file": "img/hour_chime_overlay.png",
+      "color": "#00000000"
+    },
+    "logo": {
+      "file": "img/logo.png",
+      "color": "#00000000"
+    },
+    "pete_storage": {
+      "file": "img/pete_storage.png",
+      "color": "#8fae4b"
+    },
+    "pete_vats": {
+      "file": "img/pete_vats.png",
+      "color": "#8fae4b"
+    },
+    "pete_aisle": {
+      "file": "img/pete_aisle.png",
+      "color": "#8fae4b"
+    },
+    "pete_lefthall": {
+      "file": "img/pete_lefthall.png",
+      "color": "#8fae4b"
+    },
+    "sourtwins_vats": {
+      "file": "img/sourtwins_vats.png",
+      "color": "#b6c25a"
+    },
+    "sourtwins_aisle": {
+      "file": "img/sourtwins_aisle.png",
+      "color": "#b6c25a"
+    },
+    "sourtwins_backdoor": {
+      "file": "img/sourtwins_backdoor.png",
+      "color": "#b6c25a"
+    },
+    "sourtwins_righthall": {
+      "file": "img/sourtwins_righthall.png",
+      "color": "#b6c25a"
+    },
+    "dilllord_pose": {
+      "file": "img/dilllord_pose.png",
+      "color": "#6b8f3a"
+    }
   },
   "strips": {
-    "tablet_flip_up":     { "file": "img/tablet_flip_up.png", "frames": 8, "fps": 30, "loop": false, "color": "#0a0f06" },
-    "cam_switch":         { "file": "img/cam_switch.png", "frames": 4, "fps": 30, "loop": false, "color": "#2a2a2a" },
-    "dill_static_loop":   { "file": "img/dill_static_loop.png", "frames": 6, "fps": 15, "loop": true, "color": "#222" },
-    "shutter_left":       { "file": "img/shutter_left.png", "frames": 6, "fps": 24, "loop": false, "color": "#3a3a3a" },
-    "shutter_right":      { "file": "img/shutter_right.png", "frames": 6, "fps": 24, "loop": false, "color": "#3a3a3a" },
-    "pump_lever":         { "file": "img/pump_lever.png", "frames": 5, "fps": 30, "loop": false, "color": "#4a3a1a" },
-    "battery":            { "file": "img/battery.png", "frames": 6, "fps": 1, "loop": false, "color": "#8fae4b" },
-    "low_battery_overlay":{ "file": "img/low_battery_overlay.png", "frames": 4, "fps": 6, "loop": true, "color": "#aa000044" },
-    "office_idle":        { "file": "img/office_idle.png", "frames": 4, "fps": 8, "loop": true, "color": "#1d2b14" },
-    "title_bg":           { "file": "img/title_bg.png", "frames": 6, "fps": 8, "loop": true, "color": "#0d1609" },
-    "night_card":         { "file": "img/night_card.png", "frames": 6, "fps": 12, "loop": false, "color": "#000000" },
-    "win_6am":            { "file": "img/win_6am.png", "frames": 24, "fps": 12, "loop": false, "color": "#caa94b" },
-    "gameover":           { "file": "img/gameover.png", "frames": 12, "fps": 24, "loop": false, "color": "#1a0606" },
-    "js_pete":            { "file": "img/js_pete.png", "frames": 18, "fps": 30, "loop": false, "color": "#8fae4b" },
-    "js_granny":          { "file": "img/js_granny.png", "frames": 18, "fps": 30, "loop": false, "color": "#9aa84e" },
-    "js_twins":           { "file": "img/js_twins.png", "frames": 18, "fps": 30, "loop": false, "color": "#b6c25a" },
-    "js_dill":            { "file": "img/js_dill.png", "frames": 24, "fps": 30, "loop": false, "color": "#6b8f3a" }
+    "tablet_flip_up": {
+      "file": "img/tablet_flip_up.png",
+      "frames": 8,
+      "fps": 30,
+      "loop": false,
+      "color": "#0a0f06"
+    },
+    "cam_switch": {
+      "file": "img/cam_switch.png",
+      "frames": 4,
+      "fps": 30,
+      "loop": false,
+      "color": "#2a2a2a"
+    },
+    "dill_static_loop": {
+      "file": "img/dill_static_loop.png",
+      "frames": 6,
+      "fps": 15,
+      "loop": true,
+      "color": "#222"
+    },
+    "shutter_left": {
+      "file": "img/shutter_left.png",
+      "frames": 6,
+      "fps": 24,
+      "loop": false,
+      "color": "#3a3a3a"
+    },
+    "shutter_right": {
+      "file": "img/shutter_right.png",
+      "frames": 6,
+      "fps": 24,
+      "loop": false,
+      "color": "#3a3a3a"
+    },
+    "pump_lever": {
+      "file": "img/pump_lever.png",
+      "frames": 5,
+      "fps": 30,
+      "loop": false,
+      "color": "#4a3a1a"
+    },
+    "battery": {
+      "file": "img/battery.png",
+      "frames": 6,
+      "fps": 1,
+      "loop": false,
+      "color": "#8fae4b"
+    },
+    "low_battery_overlay": {
+      "file": "img/low_battery_overlay.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "color": "#aa000044"
+    },
+    "office_idle": {
+      "file": "img/office_idle.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "color": "#1d2b14"
+    },
+    "title_bg": {
+      "file": "img/title_bg.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "color": "#0d1609"
+    },
+    "night_card": {
+      "file": "img/night_card.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "color": "#000000"
+    },
+    "win_6am": {
+      "file": "img/win_6am.png",
+      "frames": 24,
+      "fps": 12,
+      "loop": false,
+      "color": "#caa94b"
+    },
+    "gameover": {
+      "file": "img/gameover.png",
+      "frames": 12,
+      "fps": 24,
+      "loop": false,
+      "color": "#1a0606"
+    },
+    "js_pete": {
+      "file": "img/js_pete.png",
+      "frames": 18,
+      "fps": 30,
+      "loop": false,
+      "color": "#8fae4b"
+    },
+    "js_granny": {
+      "file": "img/js_granny.png",
+      "frames": 18,
+      "fps": 30,
+      "loop": false,
+      "color": "#9aa84e"
+    },
+    "js_twins": {
+      "file": "img/js_twins.png",
+      "frames": 18,
+      "fps": 30,
+      "loop": false,
+      "color": "#b6c25a"
+    },
+    "js_dill": {
+      "file": "img/js_dill.png",
+      "frames": 24,
+      "fps": 30,
+      "loop": false,
+      "color": "#6b8f3a"
+    }
   },
   "audio": {
-    "menu_theme":          { "file": "audio/menu_theme.mp3", "loop": true,  "gain": 0.5, "synth": "music" },
-    "ambience_loop":       { "file": "audio/ambience_loop.mp3", "loop": true, "gain": 0.4, "synth": "hum" },
-    "tension_loop":        { "file": "audio/tension_loop.mp3", "loop": true, "gain": 0.4, "synth": "drone" },
-    "granny_whisper_left": { "file": "audio/granny_whisper_left.mp3", "loop": false, "gain": 0.8, "pan": -1, "synth": "whisper" },
-    "granny_whisper_right":{ "file": "audio/granny_whisper_right.mp3", "loop": false, "gain": 0.8, "pan": 1, "synth": "whisper" },
-    "shutter_slam":        { "file": "audio/shutter_slam.mp3", "loop": false, "gain": 0.9, "synth": "slam" },
-    "shutter_open":        { "file": "audio/shutter_open.mp3", "loop": false, "gain": 0.6, "synth": "grind" },
-    "tablet_up":           { "file": "audio/tablet_up.mp3", "loop": false, "gain": 0.6, "synth": "whir" },
-    "tablet_down":         { "file": "audio/tablet_down.mp3", "loop": false, "gain": 0.6, "synth": "whir" },
-    "cam_switch":          { "file": "audio/cam_switch.mp3", "loop": false, "gain": 0.5, "synth": "static" },
-    "static_loop":         { "file": "audio/static_loop.mp3", "loop": true, "gain": 0.4, "synth": "static" },
-    "flashlight_toggle":   { "file": "audio/flashlight_toggle.mp3", "loop": false, "gain": 0.6, "synth": "click" },
-    "battery_low_beep":    { "file": "audio/battery_low_beep.mp3", "loop": false, "gain": 0.5, "synth": "beep" },
-    "pump_lever":          { "file": "audio/pump_lever.mp3", "loop": false, "gain": 0.8, "synth": "hiss" },
-    "footstep_left":       { "file": "audio/footstep_left.mp3", "loop": false, "gain": 0.6, "pan": -0.7, "synth": "step" },
-    "footstep_right":      { "file": "audio/footstep_right.mp3", "loop": false, "gain": 0.6, "pan": 0.7, "synth": "step" },
-    "heartbeat_loop":      { "file": "audio/heartbeat_loop.mp3", "loop": true, "gain": 0.5, "synth": "heart" },
-    "button_click":        { "file": "audio/button_click.mp3", "loop": false, "gain": 0.6, "synth": "click" },
-    "pickle_squelch":      { "file": "audio/pickle_squelch.mp3", "loop": false, "gain": 0.6, "synth": "squelch" },
-    "clock_chime":         { "file": "audio/clock_chime.mp3", "loop": false, "gain": 0.7, "synth": "chime" },
-    "bell_6am":            { "file": "audio/bell_6am.mp3", "loop": false, "gain": 0.9, "synth": "bell" },
-    "win_jingle":          { "file": "audio/win_jingle.mp3", "loop": false, "gain": 0.8, "synth": "jingle" },
-    "game_over_sting":     { "file": "audio/game_over_sting.mp3", "loop": false, "gain": 0.8, "synth": "sting" },
-    "js_pete":             { "file": "audio/js_pete.mp3", "loop": false, "gain": 1.0, "synth": "scream" },
-    "js_granny":           { "file": "audio/js_granny.mp3", "loop": false, "gain": 1.0, "synth": "scream" },
-    "js_twins":            { "file": "audio/js_twins.mp3", "loop": false, "gain": 1.0, "synth": "scream" },
-    "js_dill":             { "file": "audio/js_dill.mp3", "loop": false, "gain": 1.0, "synth": "scream" }
+    "menu_theme": {
+      "file": "audio/menu_theme.wav",
+      "loop": true,
+      "gain": 0.5,
+      "synth": "music"
+    },
+    "ambience_loop": {
+      "file": "audio/ambience_loop.wav",
+      "loop": true,
+      "gain": 0.4,
+      "synth": "hum"
+    },
+    "tension_loop": {
+      "file": "audio/tension_loop.wav",
+      "loop": true,
+      "gain": 0.4,
+      "synth": "drone"
+    },
+    "granny_whisper_left": {
+      "file": "audio/granny_whisper_left.wav",
+      "loop": false,
+      "gain": 0.8,
+      "pan": -1,
+      "synth": "whisper"
+    },
+    "granny_whisper_right": {
+      "file": "audio/granny_whisper_right.wav",
+      "loop": false,
+      "gain": 0.8,
+      "pan": 1,
+      "synth": "whisper"
+    },
+    "shutter_slam": {
+      "file": "audio/shutter_slam.wav",
+      "loop": false,
+      "gain": 0.9,
+      "synth": "slam"
+    },
+    "shutter_open": {
+      "file": "audio/shutter_open.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "grind"
+    },
+    "tablet_up": {
+      "file": "audio/tablet_up.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "whir"
+    },
+    "tablet_down": {
+      "file": "audio/tablet_down.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "whir"
+    },
+    "cam_switch": {
+      "file": "audio/cam_switch.wav",
+      "loop": false,
+      "gain": 0.5,
+      "synth": "static"
+    },
+    "static_loop": {
+      "file": "audio/static_loop.wav",
+      "loop": true,
+      "gain": 0.4,
+      "synth": "static"
+    },
+    "flashlight_toggle": {
+      "file": "audio/flashlight_toggle.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "click"
+    },
+    "battery_low_beep": {
+      "file": "audio/battery_low_beep.wav",
+      "loop": false,
+      "gain": 0.5,
+      "synth": "beep"
+    },
+    "pump_lever": {
+      "file": "audio/pump_lever.wav",
+      "loop": false,
+      "gain": 0.8,
+      "synth": "hiss"
+    },
+    "footstep_left": {
+      "file": "audio/footstep_left.wav",
+      "loop": false,
+      "gain": 0.6,
+      "pan": -0.7,
+      "synth": "step"
+    },
+    "footstep_right": {
+      "file": "audio/footstep_right.wav",
+      "loop": false,
+      "gain": 0.6,
+      "pan": 0.7,
+      "synth": "step"
+    },
+    "heartbeat_loop": {
+      "file": "audio/heartbeat_loop.wav",
+      "loop": true,
+      "gain": 0.5,
+      "synth": "heart"
+    },
+    "button_click": {
+      "file": "audio/button_click.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "click"
+    },
+    "pickle_squelch": {
+      "file": "audio/pickle_squelch.wav",
+      "loop": false,
+      "gain": 0.6,
+      "synth": "squelch"
+    },
+    "clock_chime": {
+      "file": "audio/clock_chime.wav",
+      "loop": false,
+      "gain": 0.7,
+      "synth": "chime"
+    },
+    "bell_6am": {
+      "file": "audio/bell_6am.wav",
+      "loop": false,
+      "gain": 0.9,
+      "synth": "bell"
+    },
+    "win_jingle": {
+      "file": "audio/win_jingle.wav",
+      "loop": false,
+      "gain": 0.8,
+      "synth": "jingle"
+    },
+    "game_over_sting": {
+      "file": "audio/game_over_sting.wav",
+      "loop": false,
+      "gain": 0.8,
+      "synth": "sting"
+    },
+    "js_pete": {
+      "file": "audio/js_pete.wav",
+      "loop": false,
+      "gain": 1.0,
+      "synth": "scream"
+    },
+    "js_granny": {
+      "file": "audio/js_granny.wav",
+      "loop": false,
+      "gain": 1.0,
+      "synth": "scream"
+    },
+    "js_twins": {
+      "file": "audio/js_twins.wav",
+      "loop": false,
+      "gain": 1.0,
+      "synth": "scream"
+    },
+    "js_dill": {
+      "file": "audio/js_dill.wav",
+      "loop": false,
+      "gain": 1.0,
+      "synth": "scream"
+    }
   }
 }
