@@ -559,9 +559,7 @@ class Game {
   _renderMenu(){
     this.A.drawStripFrame('title_bg', Math.floor((this.titleT||0)*8)%this.A.strip['title_bg'].frames, 0,0,W,H);
     this.A.drawImage('logo', W/2-400, 90, 800, 240);
-    ctx.fillStyle='#cfe39a'; ctx.font='bold 64px Courier New'; ctx.textAlign='center';
-    ctx.fillText("ONE NIGHT AT", W/2, 200);
-    ctx.fillText("PICKLE PETE'S", W/2, 280);
+    ctx.textAlign='center';
     const blink = (Math.sin((this.titleT||0)*3)>0);
     if (blink){ ctx.font='28px Courier New'; ctx.fillStyle='#8fae4b'; ctx.fillText('CLICK / ENTER TO START SHIFT', W/2, 520); }
     ctx.font='16px Courier New'; ctx.fillStyle='rgba(207,227,154,0.6)';
